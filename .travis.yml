@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: I4ijwCieTpmhxB7WMl8b/jyVNTofKJ84Xm4uLxl684ltHCIGfiE8chpQ4aTbrEfpjObF8g0Syzrm+r4kiSDBUPrT9uLyOzdU8I6E/8WsOA2cP75TquZsHm84dhZE2vDsI3x4fs67swL/Joh9BFU3mGGRX1HqYT8ofpcqSYkw5y/1prMYUo1Tm5/em7UV3IZMvpceZItBDhBf9EobpBySPq46PqEn5zrFNwYEKQ1JIQ73T6QN2grCpFyxjp0mXsaoAED35g41sJnMIqDB1SZcEUeME7AOj7a9YgdWJ1k7dBE0Cb06CiGZkkXWATDIJqN0TTriodHTSPg+7CUWt2q3Lyil2qasHoIuwJt5gre2XiDGI74HDpQ21Dtl8CvPAWVusAmDxHmPhBzUcHIhYBlVM2910VerxKedUWIGl37dGjWG9ejY5MiI/XEpJdokSGPUmbvSI+LQzSjIksq9HJPSCPuwB95F7tuZrZcawmKLJB3m28HlpmlXiPVfv20rW6Q0SFJpByPHlQpQwjUuaHxJLBkS6M0oPirTRV8e5arqFRqSm4mgXSlwgdkDUHwrwZ89PI1IoPNc5VH7++1LvbmqvdB9+E+PlJMVO5+phR5hXpElVxQrExlYsPn08yiYfkhhjh5HoLf1Uq0MIoMnTGHkUtwIY7Vj3pwtAybCsYOEA+8=
+  app: mhw-bestiary
+  on:
+    repo: koodilauri/mhw-bestiary
